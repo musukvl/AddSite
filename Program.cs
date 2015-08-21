@@ -21,7 +21,7 @@ namespace Musuk.AddSite
             string ip,
             [Optional(80, Description = "Site binding port. [80] by default.")]
             int port,
-            [Optional("Classic .NET AppPool", "pool", Description = "Application pool for site. [Classic .NET AppPool] by default")]
+            [Optional(".NET v4.5", "pool", Description = "Application pool for site. [.NET v4.5] by default")]
             string appPool
         )
         {
